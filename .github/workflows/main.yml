@@ -21,6 +21,6 @@ jobs:
          destination: ${{ matrix.destination }}
       - name: Test
         run: |
-          xcodebuild clean test -workspace Spots.xcworkspace -scheme SpotsTests -destination "${destination}" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO
+          xcodebuild clean test -workspace Spots.xcworkspace -scheme Spots -destination "${destination}" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO test xcpretty
         env: 
          destination: ${{ matrix.destination }}
