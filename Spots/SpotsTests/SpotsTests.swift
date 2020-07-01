@@ -2,12 +2,11 @@
 //  SpotsTests.swift
 //  SpotsTests
 //
-//  Created by Alex on 26.06.2020.
+//  Created by Alex on 01.07.2020.
 //  Copyright © 2020 Alex. All rights reserved.
 //
 
 import XCTest
-@testable import Spots
 
 class SpotsTests: XCTestCase {
 
@@ -26,7 +25,7 @@ class SpotsTests: XCTestCase {
 
     func testPerformanceExample() {
         // This is an example of a performance test case.
-        self.measure {
+        measure {
             // Put the code you want to measure the time of here.
         }
     }
